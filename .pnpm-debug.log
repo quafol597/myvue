@@ -1,0 +1,20 @@
+{
+  "0 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "/Users/liuzhiyuan/Desktop/vue-vben-admin",
+    "wanted": {
+      "node": ">=16.15.1",
+      "pnpm": ">=8.1.0"
+    },
+    "current": {
+      "node": "v14.17.5",
+      "pnpm": "6.0.0"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Unsupported engine for /Users/liuzhiyuan/Desktop/vue-vben-admin: wanted: {\"node\":\">=16.15.1\",\"pnpm\":\">=8.1.0\"} (current: {\"node\":\"v14.17.5\",\"pnpm\":\"6.0.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "Error: Unsupported engine for /Users/liuzhiyuan/Desktop/vue-vben-admin: wanted: {\"node\":\">=16.15.1\",\"pnpm\":\">=8.1.0\"} (current: {\"node\":\"v14.17.5\",\"pnpm\":\"6.0.0\"})\n    at checkEngine (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:39275:14)\n    at checkPackage (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:39415:102)\n    at packageIsInstallable (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:39437:59)\n    at exports2.default (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:49636:44)\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:123381:27)\n    at async runPnpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:123616:5)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:123608:7"
+    }
+  }
+}
